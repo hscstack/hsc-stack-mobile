@@ -9,19 +9,19 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyCbpry7Vdk5c6vEwEylAEYGgMHgHd0sJPc",
+  apiKey: "",
 
-  authDomain: "chatapp-rgc-community.firebaseapp.com",
+  authDomain: "",
 
-  projectId: "chatapp-rgc-community",
+  projectId: "",
 
-  storageBucket: "chatapp-rgc-community.firebasestorage.app",
+  storageBucket: "",
 
-  messagingSenderId: "345620021753",
+  messagingSenderId: "",
 
-  appId: "1:345620021753:web:c2f29830a76c2773fdfd28",
+  appId: "",
 
-  measurementId: "G-SYXE6P2VWZ"
+  measurementId: ""
 
 };
 
