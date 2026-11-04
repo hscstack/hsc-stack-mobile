@@ -1,56 +1,213 @@
-# Welcome to your Expo app 👋
+# HSCStack Mobile 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**HSCStack Mobile** is a student-focused educational mobile application designed to bring the HSCStack learning platform to Android and iOS devices.
 
-## Get started
+The application provides students with a mobile-friendly experience to explore educational content, track their learning activities, connect with other students, and participate in an educational community.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+### 🏠 Home
+- Student-focused home dashboard.
+- Quick access to important sections.
+- Clean and intuitive navigation.
 
-   ```bash
-   npx expo start
-   ```
+### 📊 Tracker
+- Track academic progress.
+- Monitor learning activities.
+- Visualize consistency and progress.
 
-In the output, you'll find options to open the app in a
+### 👥 People
+- Discover other students.
+- Explore student profiles.
+- Connect with the learning community.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📝 Blog
+- Explore educational content.
+- Read community-related posts.
+- Stay connected with learning resources.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 💬 Forum
+- Student discussion platform.
+- Share questions and ideas.
+- Participate in academic discussions.
 
-## Get a fresh project
+### 💬 Chat
+- Dedicated messaging section.
+- A foundation for student-to-student communication.
 
-When you're ready, run:
+### 👤 Student Profile
+- GitHub-inspired contribution heatmap.
+- Appreciators and Appreciating sections.
+- Student activity overview.
 
-```bash
-npm run reset-project
+### 🎨 Customization
+- Light Mode.
+- Dark Mode.
+- System Theme.
+- Custom navigation drawer.
+- Consistent application-wide theming.
+
+---
+
+## 🎓 Academic Categories
+
+The application supports multiple academic levels:
+
+- SSC
+- HSC
+- Admission
+
+### Academic Departments
+
+- 🔬 Science (বিজ্ঞান)
+- 📚 Humanities (মানবিক)
+- 💼 Business Studies (ব্যবসায় শিক্ষা)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React Native | Cross-platform mobile development |
+| Expo SDK 55 | Development and build tooling |
+| TypeScript | Type-safe development |
+| Expo Router | File-based navigation |
+| React Hooks | State and lifecycle management |
+| Context API | Global state and theme management |
+
+---
+
+## 📂 Project Structure
+
+```text
+hsc-stack-mobile/
+│
+├── app/
+│   ├── (tabs)/
+│   │   ├── index.tsx
+│   │   ├── tracker.tsx
+│   │   ├── people.tsx
+│   │   ├── blog.tsx
+│   │   ├── forum.tsx
+│   │   └── chat.tsx
+│   │
+│   ├── _layout.tsx
+│   └── ...
+│
+├── components/
+│
+├── contexts/
+│   └── ThemeProvider
+│
+├── assets/
+│
+├── constants/
+│
+├── hooks/
+│
+├── app.json
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+*Note: This is an illustrative project structure.*
 
-### Other setup steps
+---
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
 
-To learn more about developing your project with Expo, look at the following resources:
+Make sure you have installed:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Node.js
+- npm
+- Git
+- Expo Go (for compatible development features)
 
-## Join the community
+### 1. Clone the repository
 
-Join our community of developers creating universal apps.
+```bash
+git clone https://github.com/sHishirDey/hsc-stack-mobile.git
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 2. Navigate to the project
+
+```bash
+cd hsc-stack-mobile
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npx expo start
+```
+
+### 5. Run the application
+
+- Scan the QR code using Expo Go.
+- Or use an available Android development build.
+
+---
+
+## 🎨 Design Philosophy
+
+HSCStack Mobile focuses on:
+
+- Minimal and modern UI.
+- Consistent design language.
+- Smooth navigation.
+- Student-friendly experiences.
+- Responsive layouts.
+- Accessible light and dark themes.
+
+---
+
+## 🔗 Related Project
+
+**HSCStack Platform**
+
+This mobile application is associated with the HSCStack educational ecosystem.
+
+---
+
+## 👨‍💻 Developer
+
+**Shishir Ronjon Dey**
+
+- GitHub: [@sHishirDey](https://github.com/sHishirDey)
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+If you have an idea to improve HSCStack Mobile:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a Pull Request.
+
+---
+
+## 📄 License
+
+Add your preferred open-source license before distributing or publishing this project.
+
+---
+
+<p align="center">
+  Made with ❤️ for the HSCStack community.
+</p>
